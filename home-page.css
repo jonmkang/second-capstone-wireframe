@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: grey;
+    padding: 1rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.introduction{
+    background-color: darkgrey;
+    padding: 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.register{
+    background-color: grey;
+    padding: 2rem;
+    height: 30vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
